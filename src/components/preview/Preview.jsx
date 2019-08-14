@@ -1,10 +1,12 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import { Col } from 'reactstrap';
+// import ReactMarkdown from 'react-markdown';
 
 const Preview = () => (
-  <Grid item xs={12} md={6}>
+  <Col xs="12" md="6">
     Preview
-  </Grid>
+    {/* <ReactMarkdown source={input} /> */}
+  </Col>
 );
 
 export default Preview;

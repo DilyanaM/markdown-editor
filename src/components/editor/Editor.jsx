@@ -1,10 +1,10 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import { Col } from 'reactstrap';
 
 const Editor = () => (
-  <Grid item xs={12} md={6}>
-    Editor
-  </Grid>
+  <Col xs="12" md="6">
+    <textarea className="form-control" />
+  </Col>
 );
 
 export default Editor;

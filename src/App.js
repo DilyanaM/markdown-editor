@@ -1,12 +1,11 @@
 import React from 'react';
+import Header from './components/layout/header/Header';
 import Main from './components/main/Main';
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <header>
-      Markdown Editor
-    </header>
+    <Header />
     <Main />
   </div>
 );
