@@ -1,10 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Col } from 'reactstrap';
 
-const Editor = () => (
-  <Col xs="12" md="6">
-    <textarea className="form-control" />
-  </Col>
-);
+export default class Editor extends React.Component {
+  update = (event) => {
+    this.props.updateEditorText(event.target.value);
+  }
 
-export default Editor;
+  render() {
+    return (
+      <Col xs="12" md="6">
+        <textarea
+          className="form-control"
+          onChange={this.update}
+        />
+      </Col>
+    );
+  }
+}
+
+Editor.propTypes = {
+  updateEditorText: PropTypes.func.isRequired,
+};
