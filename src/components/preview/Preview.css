@@ -1,0 +1,14 @@
+.preview-container {
+  display: flex;
+  height: 100%;
+}
+
+.preview {
+  flex: 1;
+  background-color: #ecebed;
+  display: block;
+  padding: .375rem .75rem;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}

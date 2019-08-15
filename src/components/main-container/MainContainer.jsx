@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row } from 'reactstrap';
 import Editor from '../editor/Editor';
 import Preview from '../preview/Preview';
+import './MainContainer.css';
 
 export default class MainContainer extends React.Component {
   constructor() {
@@ -20,7 +21,7 @@ export default class MainContainer extends React.Component {
 
   render() {
     return (
-      <Container fluid>
+      <Container fluid className="main bg-dark">
         <Row>
           <Editor updateEditorText={this.updateEditorText} />
           <Preview editorText={this.state.editorText} />
