@@ -36,8 +36,8 @@ More available scripts can be found in the `package.json` file in `root` directo
 
 ## Resources
 
-- ReactJS: [https://reactjs.org/](https://reactjs.org/)
-- Create React App: [https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app)
-- Reactstrap: [https://reactstrap.github.io/](https://reactstrap.github.io/)
-- React Markdown: [https://github.com/rexxars/react-markdown](https://github.com/rexxars/react-markdown)
-- React Syntax Highlighter: [https://github.com/conorhastings/react-syntax-highlighter](https://github.com/conorhastings/react-syntax-highlighter)
+- [ReactJS](https://reactjs.org/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Reactstrap](https://reactstrap.github.io/)
+- [React Markdown](https://github.com/rexxars/react-markdown)
+- [React Syntax Highlighter](https://github.com/conorhastings/react-syntax-highlighter)
